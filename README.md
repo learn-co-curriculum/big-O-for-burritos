@@ -177,13 +177,21 @@ int max(array) {
 }
 ```
 
-Solution: _______________
+Winner: _______________
+
+Algorithm A
+
+Order: _______________
+
+Algorithm B
+
+Order: _______________
 
 ## Exercise 5
 
-Which algorithm, FOO or BAR, is faster when when `n` is 10? 100? 1000?
+Which algorithm, foo or bar, is faster when when `n` is 10? 100? 1000?
 
-ALGORITHM FOO
+Algorithm foo
 
 ```C
   int foo(n) {
@@ -197,7 +205,7 @@ ALGORITHM FOO
   }
 ```
 
-ALGORITHM BAR
+Algorithm bar
 
 ```C
   int bar(n) {
@@ -215,16 +223,66 @@ ALGORITHM BAR
 
 ### n=10
 
-FOO complexity: __________ BAR complexity: __________ winner: __________
+foo complexity: __________ bar complexity: __________ winner: __________
 
 ### n=50
 
-FOO complexity: __________ BAR complexity: __________ winner: __________
+foo complexity: __________ bar complexity: __________ winner: __________
 
 ### n=1000
 
-FOO complexity: __________ BAR complexity: __________ winner: __________
+foo complexity: __________ bar complexity: __________ winner: __________
 
 ### n=1000
 
-FOO complexity: __________ BAR complexity: __________ winner: __________
+foo complexity: __________ bar complexity: __________ winner: __________
+
+## Exercise 5
+
+Which algorithm, foo or bar, is faster when `n` is 10? 100? 1000?
+
+ALGORITHM foo
+
+```C
+  int foo(n) {
+    int sum = 0
+
+    for(int i = 0; i < n + 500; i++) {
+      sum++;
+    }
+
+    return sum;
+  }
+```
+
+ALGORITHM bar
+
+```C
+  int bar(n) {
+    int sum = 0
+
+    for(int i = 0; i < n; i++) {
+      for(int j = 0; j < n; j++) {
+        sum++;
+      }
+    }
+
+    return sum;
+  }
+```
+
+### n=10
+
+foo complexity: __________ bar complexity: __________ winner: __________
+
+### n=50
+
+foo complexity: __________ bar complexity: __________ winner: __________
+
+### n=1000
+
+foo complexity: __________ bar complexity: __________ winner: __________
+
+### n=1000
+
+foo complexity: __________ bar complexity: __________ winner: __________
