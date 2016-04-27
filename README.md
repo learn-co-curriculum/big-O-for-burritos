@@ -12,7 +12,7 @@ void function foo(n) {
 }
 ```
 
-Complexity: `O(3n + 1)`
+Complexity: `O(3n + 2)`
 Complexity Class: `O(n)`
 
 We have 1 operation to initialize the count variable to 0. One could
@@ -26,5 +26,5 @@ Then, n times, the loop checks if i is less than n and increments i, so
 
 In the body of the loop, we increment count n times.
 
-So, there roughly exactly just about 3n + 1 operations. If n is 1, then
-there are 4 operations. If n is 100, there are 301 operations.
+So, there roughly exactly just about 3n + 2 operations. If n is 1, then
+there are 5 operations. If n is 100, there are 302 operations.
