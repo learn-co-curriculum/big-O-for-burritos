@@ -177,8 +177,6 @@ int max(array) {
 }
 ```
 
-Winner: _______________
-
 Algorithm A
 
 Order: _______________
@@ -186,6 +184,8 @@ Order: _______________
 Algorithm B
 
 Order: _______________
+
+Winner: _______________
 
 ## Exercise 5
 
@@ -206,56 +206,6 @@ Algorithm foo
 ```
 
 Algorithm bar
-
-```C
-  int bar(n) {
-    int sum = 0
-
-    for(int i = 0; i < n; i++) {
-      for(int j = 0; j < n; j++) {
-        sum++;
-      }
-    }
-
-    return sum;
-  }
-```
-
-### n=10
-
-foo complexity: __________ bar complexity: __________ winner: __________
-
-### n=50
-
-foo complexity: __________ bar complexity: __________ winner: __________
-
-### n=1000
-
-foo complexity: __________ bar complexity: __________ winner: __________
-
-### n=1000
-
-foo complexity: __________ bar complexity: __________ winner: __________
-
-## Exercise 5
-
-Which algorithm, foo or bar, is faster when `n` is 10? 100? 1000?
-
-ALGORITHM foo
-
-```C
-  int foo(n) {
-    int sum = 0
-
-    for(int i = 0; i < n + 500; i++) {
-      sum++;
-    }
-
-    return sum;
-  }
-```
-
-ALGORITHM bar
 
 ```C
   int bar(n) {
