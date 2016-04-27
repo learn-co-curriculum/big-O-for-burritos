@@ -15,16 +15,16 @@ void function foo(n) {
 Complexity: `O(3n + 2)`
 Complexity Class: `O(n)`
 
-We have 1 operation to initialize the count variable to 0. One could
-also consider the initialization of the variable count to be it's own
+We have 1 operation to initialize the `count` to 0. One could
+also consider the initialization of `count` to be it's own
 operation, but it doesn't really matter.
 
-The first line of the for loop also intializes the variable i.
+The first line of the for loop also intializes `i`.
 
-Then, n times, the loop checks if i is less than n and increments i, so
-2 * n.
+Then, `n` times, the loop checks if `i` is less than `n` and increments `i`, so
+2 * `n`.
 
-In the body of the loop, we increment count n times.
+In the body of the loop, we increment count `n` times.
 
-So, there roughly exactly just about 3n + 2 operations. If n is 1, then
-there are 5 operations. If n is 100, there are 302 operations.
+So, there roughly exactly just about 3`n` + 2 operations. If `n` is 1, then
+there are 5 operations. If `n` is 100, there are 302 operations.
