@@ -19,7 +19,7 @@ We have 1 operation to initialize the `count` to 0. One could
 also consider the initialization of `count` to be it's own
 operation, but it doesn't really matter.
 
-The first line of the for loop also intializes `i`.
+The `for` loop definition intializes `i` to 0 once.
 
 Then, `n` times, the loop checks if `i` is less than `n` and increments `i`, so
 2 * `n`.
