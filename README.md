@@ -48,8 +48,8 @@ tool to calculating the complexity.
 int rectangle_area(height, width) {
   int area = 0;
 
-  for(int height = 0; i < n; i++) {
-    for(int width = 0; j < n; i++) {
+  for(int i = 0; i < height; i++) {
+    for(int j = 0; j < height; i++) {
       area++;
     }
   }
