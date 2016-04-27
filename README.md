@@ -13,7 +13,7 @@ void function foo(n) {
 ```
 
 Complexity: `O(3n + 2)`
-Complexity Class: `O(n)`
+Order: `O(n)`
 
 We have 1 operation to initialize the `count` to 0. One could
 also consider the initialization of `count` to be it's own
