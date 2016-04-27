@@ -1,6 +1,8 @@
 # big-O-for-burritos
 A set of exercises optimized for those coming from a background in burritos. Those familiar only with tortillas will want to review meat, cheese, and rice.
 
+## Example
+
 ```C
 
 void function foo(n) {
@@ -12,8 +14,7 @@ void function foo(n) {
 }
 ```
 
-Complexity: `O(3n + 2)`
-Order: `O(n)`
+Complexity: `O(3n + 2)` Order: `O(n)`
 
 We have 1 operation to initialize the `count` to 0. One could
 also consider the initialization of `count` to be it's own
@@ -28,3 +29,90 @@ In the body of the loop, we increment count `n` times.
 
 So, there roughly exactly just about 3`n` + 2 operations. If `n` is 1, then
 there are 5 operations. If `n` is 100, there are 302 operations.
+
+## Exercise 1
+
+Try writing the complexity next to each line like in the example as a
+tool to calculating the complexity.
+
+```C
+int function rectangle_area(height, width) {
+  int area = 0;
+
+  for(int height = 0; i < n; i++) {
+    for(int width = 0; j < n; i++) {
+      area++;
+    }
+  }
+
+  return area;
+}
+```
+
+Complexity: _______________ Order: _______________
+
+## Exercise 2
+
+*ONLY CALCULATE THE ORDER, YES THERE IS A TRICK*
+
+```C
+int function cheese_shredder() {
+  float dist_to_moon_km = 370300;
+  float height_of_cheese_wheel_km =  0.000117;
+  float stacked_cheese_height_km = 0;
+  int num_cheese_shredders = 5;
+  int num_technicians_per_shredder = 2;
+  int shred_time = 12;
+  int total_shred_time = 0;
+
+  while(stacked_cheese_height_km < dist_to_moon_km) {
+    stacked_cheese_height_km = stacked_cheese_height_km + average_cheese_height_km;
+  }
+
+  for(int i = 0; i < num_cheese_shredders; i++) {
+    // Proprietary cheese calculation heuristic
+    for(int j = 12; j < 123456; j = j + 6) {
+      for(int k = 21; k < 123456; k = k + 6) {
+        total_shred_time  = total_shred_time + stacked_cheese_height_km / (stacked_cheese_height_km - 2.0);
+      }
+    }
+  }
+
+  return total_shred_time;
+}
+```
+
+Order: _______________
+
+## Exercise 3
+
+```C
+void function foo(n) {
+  int count = 0;
+
+  if(n % 2 == 1) {
+    n = n - 1;
+  }
+
+  for(int i = n; i > 0; i = i / 2;) {
+    count++;
+  }
+}
+
+Complexity: _______________ Order: _______________
+
+
+## Exercise 4
+
+```C
+int function bacteria_generation(initial_population, days) {
+  int total_population = initial_population;
+
+  for(int i = 0; i < days; i++) {
+    total_population = total_population * 2;
+  }
+
+  return total_population;
+}
+
+Complexity: _______________ Order: _______________
