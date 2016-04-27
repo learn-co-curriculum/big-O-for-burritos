@@ -1,5 +1,12 @@
 # big-O-for-burritos
+
 A set of exercises optimized for those coming from a background in burritos. Those familiar only with tortillas will want to review meat, cheese, and rice.
+
+## Instructions
+
+Complete each exercise. "order" refers to the general Big O order, like
+O(1), O(n), or O(n log(n)). "complexity" refers to a more specific
+approximation of computations necessary, like O(3n + 42) or O(12).
 
 ## Example
 
@@ -206,18 +213,18 @@ ALGORITHM BAR
   }
 ```
 
-* n=10
+### n=10
 
 FOO complexity: __________ BAR complexity: __________ winner: __________
 
-* n=50
+### n=50
 
 FOO complexity: __________ BAR complexity: __________ winner: __________
 
-* n=1000
+### n=1000
 
 FOO complexity: __________ BAR complexity: __________ winner: __________
 
-* n=1000
+### n=1000
 
 FOO complexity: __________ BAR complexity: __________ winner: __________
