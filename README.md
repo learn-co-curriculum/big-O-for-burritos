@@ -171,3 +171,53 @@ int max(array) {
 ```
 
 Solution: _______________
+
+## Exercise 5
+
+Which algorithm, FOO or BAR, is faster when when `n` is 10? 100? 1000?
+
+ALGORITHM FOO
+
+```C
+  int foo(n) {
+    int sum = 0
+
+    for(int i = 0; i < n + 500; i++) {
+      sum++;
+    }
+
+    return sum;
+  }
+```
+
+ALGORITHM BAR
+
+```C
+  int bar(n) {
+    int sum = 0
+
+    for(int i = 0; i < n; i++) {
+      for(int j = 0; j < n; j++) {
+        sum++;
+      }
+    }
+
+    return sum;
+  }
+```
+
+* n=10
+
+FOO complexity: __________ BAR complexity: __________ winner: __________
+
+* n=50
+
+FOO complexity: __________ BAR complexity: __________ winner: __________
+
+* n=1000
+
+FOO complexity: __________ BAR complexity: __________ winner: __________
+
+* n=1000
+
+FOO complexity: __________ BAR complexity: __________ winner: __________
