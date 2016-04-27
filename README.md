@@ -5,7 +5,7 @@ A set of exercises optimized for those coming from a background in burritos. Tho
 
 ```C
 
-void function foo(n) {
+void foo(n) {
   int count = 0; // 1
 
   for(int i = 0; i < n; i++) { // 2n + 1
@@ -38,7 +38,7 @@ Try writing the complexity next to each line like in the example as a
 tool to calculating the complexity.
 
 ```C
-int function rectangle_area(height, width) {
+int rectangle_area(height, width) {
   int area = 0;
 
   for(int height = 0; i < n; i++) {
@@ -60,7 +60,7 @@ Calculate the order.
 *ONLY CALCULATE THE ORDER, YES THERE IS A TRICK*
 
 ```C
-int function cheese_shredder() {
+int cheese_shredder() {
   float dist_to_moon_km = 370300;
   float height_of_cheese_wheel_km =  0.000117;
   float stacked_cheese_height_km = 0;
@@ -93,7 +93,7 @@ Order: _______________
 Calculate the complexity and order.
 
 ```C
-int function halves(n) {
+int halves(n) {
   int count = 0;
 
   if(n % 2 == 1) {
@@ -116,7 +116,7 @@ Complexity: _______________ Order: _______________
 Calculate the complexity and order.
 
 ```C
-int function bacteria_generation(initial_population, days) {
+int bacteria_generation(initial_population, days) {
   int total_population = initial_population;
 
   for(int i = 0; i < days; i++) {
@@ -128,3 +128,46 @@ int function bacteria_generation(initial_population, days) {
 ```
 
 Complexity: _______________ Order: _______________
+
+## Exercise 5
+
+Which algorithm is more efficient? (burrito is not a valid answer)
+
+Algorithm A
+
+```C
+int max(array) {
+  int max = array[0];
+
+  for(int i = 1; i < array.length; i++) {
+    if(array[i] > max) {
+      max = array[i];
+    }
+  }
+
+  return max;
+}
+```
+
+Algorithm B
+
+```C
+int max(array) {
+  int temp;
+
+  // sort the array in ascending order
+  for(int i = 0; i < array.length; i++) {
+    for(int j = 0; j < array.length - 1; j++) {
+      if( array[j] > array[j+1]) {
+        temp = array[j+1];
+        array[j+1] = array[j];
+        array[j] = temp;
+      }
+    }
+  }
+
+  return array[array.length-1];
+}
+```
+
+Solution: _______________
