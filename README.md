@@ -123,11 +123,16 @@ Complexity: _______________ Order: _______________
 Calculate the complexity and order.
 
 ```C
-int bacteria_generation(initial_population, days) {
-  int total_population = initial_population;
+int bacteria_generation(days) {
+  int total_population = 1;
+  int current_population = total_population;
 
   for(int i = 0; i < days; i++) {
-    total_population = total_population * 2;
+    current_population = total_population;
+
+    for(int j = 0; j < current_population; j++) {
+      total_population++;
+    }
   }
 
   return total_population;
