@@ -87,7 +87,7 @@ Order: _______________
 ## Exercise 3
 
 ```C
-void function foo(n) {
+int function halves(n) {
   int count = 0;
 
   if(n % 2 == 1) {
@@ -97,7 +97,10 @@ void function foo(n) {
   for(int i = n; i > 0; i = i / 2;) {
     count++;
   }
+
+  return count;
 }
+```
 
 Complexity: _______________ Order: _______________
 
@@ -114,5 +117,6 @@ int function bacteria_generation(initial_population, days) {
 
   return total_population;
 }
+```
 
 Complexity: _______________ Order: _______________
