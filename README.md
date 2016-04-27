@@ -32,6 +32,8 @@ there are 5 operations. If `n` is 100, there are 302 operations.
 
 ## Exercise 1
 
+Calculate the complexity and order.
+
 Try writing the complexity next to each line like in the example as a
 tool to calculating the complexity.
 
@@ -52,6 +54,8 @@ int function rectangle_area(height, width) {
 Complexity: _______________ Order: _______________
 
 ## Exercise 2
+
+Calculate the order.
 
 *ONLY CALCULATE THE ORDER, YES THERE IS A TRICK*
 
@@ -86,6 +90,8 @@ Order: _______________
 
 ## Exercise 3
 
+Calculate the complexity and order.
+
 ```C
 int function halves(n) {
   int count = 0;
@@ -106,6 +112,8 @@ Complexity: _______________ Order: _______________
 
 
 ## Exercise 4
+
+Calculate the complexity and order.
 
 ```C
 int function bacteria_generation(initial_population, days) {
