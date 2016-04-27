@@ -49,7 +49,7 @@ int rectangle_area(height, width) {
   int area = 0;
 
   for(int i = 0; i < height; i++) {
-    for(int j = 0; j < height; i++) {
+    for(int j = 0; j < width; i++) {
       area++;
     }
   }
