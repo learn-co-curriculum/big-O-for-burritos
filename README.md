@@ -6,7 +6,7 @@ A set of exercises optimized for those coming from a background in burritos. Tho
 
 Complete each exercise. "order" refers to the general Big O order, like
 O(1), O(n), or O(n log(n)). "complexity" refers to a more specific
-approximation of computations necessary, like O(3n + 42) or O(12).
+approximation of computations necessary, like `13n + 42` or `12`.
 
 ## Example
 
@@ -21,7 +21,7 @@ void foo(n) {
 }
 ```
 
-Complexity: `O(3n + 2)` Order: `O(n)`
+Complexity: `3n + 2` Order: `O(n)`
 
 We have 1 operation to initialize the `count` to 0. One could
 also consider the initialization of `count` to be it's own
@@ -67,9 +67,8 @@ Calculate the order.
 *ONLY CALCULATE THE ORDER, YES THERE IS A TRICK*
 
 ```C
-int cheese_shredder() {
+int cheese_shredder(float height_of_cheese_wheel) {
   float dist_to_moon_km = 370300;
-  float height_of_cheese_wheel_km =  0.000117;
   float stacked_cheese_height_km = 0;
   int num_cheese_shredders = 5;
   int num_technicians_per_shredder = 2;
@@ -77,7 +76,7 @@ int cheese_shredder() {
   int total_shred_time = 0;
 
   while(stacked_cheese_height_km < dist_to_moon_km) {
-    stacked_cheese_height_km = stacked_cheese_height_km + average_cheese_height_km;
+    stacked_cheese_height_km = stacked_cheese_height_km + height_of_cheese_wheel;
   }
 
   for(int i = 0; i < num_cheese_shredders; i++) {
@@ -192,7 +191,7 @@ Order: _______________
 
 Winner: _______________
 
-## Exercise 5
+## Exercise 6
 
 Which algorithm, foo or bar, is faster when when `n` is 10? 100? 1000?
 
