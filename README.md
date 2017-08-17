@@ -1,4 +1,11 @@
-<body> <iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://theflatironschool.typeform.com/to/I9TsNU"></iframe> <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script> </body>
+# Typeform Example
+
+<body> <iframe id="typeform-full" width="100%" height="100%" frameborder="0” style =“margin: 0; height: 600px; width: 800px;” "src="https://theflatironschool.typeform.com/to/I9TsNU"></iframe> <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script> </body>
+
+
+# Quizzr Example
+
+<iframe id="quizWidget-443859" width="100%" height="700px" frameborder="0" border="none" src="https://www.qzzr.com/widget/quiz/fi9xdWl6emVzLzQ0Mzg1OQ"></iframe>
 
 
 
