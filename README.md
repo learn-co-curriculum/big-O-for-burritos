@@ -1,4 +1,4 @@
-<iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://theflatironschool.typeform.com/to/I9TsNU"></iframe>
+<iframe id="typeform-full" width="80%" height="80%" frameborder="0" src="https://theflatironschool.typeform.com/to/I9TsNU"></iframe>
 
 
 
