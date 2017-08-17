@@ -1,4 +1,4 @@
-<html> <head> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> <title>Add your Typeform title here</title> <style type="text/css"> html{ margin: 0; height: 100%; overflow: hidden; } iframe{ position: absolute; left:0; right:0; bottom:0; top:0; border:0; } </style> </head> <body> <iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://theflatironschool.typeform.com/to/I9TsNU"></iframe> <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script> </body> </html>
+
 
 
 
@@ -12,6 +12,8 @@ A set of exercises optimized for those coming from a background in burritos. Tho
 Complete each exercise. "order" refers to the general Big O order, like
 O(1), O(n), or O(n log(n)). "complexity" refers to a more specific
 approximation of computations necessary, like `13n + 42` or `12`.
+
+ <iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://theflatironschool.typeform.com/to/I9TsNU"></iframe> <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script> </body> </html>
 
 ## Example
 
