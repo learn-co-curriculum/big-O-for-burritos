@@ -258,3 +258,9 @@ foo complexity: __________ bar complexity: __________ winner: __________
 ### n=1000
 
 foo complexity: __________ bar complexity: __________ winner: __________
+
+<picture>
+  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/bootcamp_prep/rock_dodger.webp" type="image/webp">
+  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/bootcamp_prep/rock_dodger.gif" type="image/gif">
+  <img src="https://curriculum-content.s3.amazonaws.com/web-development/bootcamp_prep/rock_dodger.gif" alt="Rock Dodger demo!">
+</picture>
