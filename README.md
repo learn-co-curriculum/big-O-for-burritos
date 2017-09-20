@@ -13,6 +13,9 @@ approximation of computations necessary, like `13n + 42` or `12`.
 
 <iframe id="quizWidget-443859" width="100%" height="700px" frameborder="0" border="none" src="https://www.qzzr.com/widget/quiz/fi9xdWl6emVzLzQ0Mzg1OQ"></iframe>
 
+# Survey Legend Example
+
+<iframe src= " https://www.surveylegend.com/s/dnx " width= "100%" height= "1000px" style= "frameborder: 0; border: 0; margin: 0 auto;" > </iframe>
 
 
 # big-O-for-burritos
