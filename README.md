@@ -37,9 +37,19 @@
 <div class="readme-content-test--show-when-active">
 
   Nice! You’re all connected with GitHub. Now, it’s time to start using the “Learn IDE” – short for Integrated Development Environment – that we mentioned in the last lesson.
+  
+  <br>
 
-  If you’re thinking, “I have no idea what the Learn IDE is and how I’ll use it,” don’t worry! In the next lesson, we’ll walk you through your first lab using test-driven-development and the IDE. 
+  If you’re thinking, “I have no idea what the Learn IDE is and how I’ll use it,” don’t worry! In the next lesson, we’ll walk you through your first lab using test-driven-development and the IDE.
+  
+  <br>
+  
+  <img height="auto" width="500px" src="https://s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/splitscreenide.png" />
+  
+  <br>
 
-  With the click of a button, the Learn IDE gives you a pre-configured terminal with a complete development environment. We built the Learn IDE so you can get started coding for real without the hassle of getting your entire computer set up. It will open right in your browser, so no need to worry about downloading software or configuring anything. As soon as you open it, it will connect with your GitHub account that you just set up.
+  With the click of a button, the Learn IDE gives you a pre-configured terminal with a complete development environment. We built the Learn IDE so you can get started coding for real without the hassle of getting your entire computer set up. It will open right in your browser, so no need to worry about downloading software or configuring anything. As soon as you open it, it will connect with your GitHub account that you just set up. 
+  
+  Make sure you're set up with a recent version of Chrome to have the best IDE In Browser experience. Ready to get started? Click "I'm Done" and "Next Lesson" to start your First IDE Lab.
 
 </div>
