@@ -1,269 +1,62 @@
-## Instructions
+<div class="readme-content-test--hide-when-active">
 
-Complete each exercise. "order" refers to the general Big O order, like
-O(1), O(n), or O(n log(n)). "complexity" refers to a more specific
-approximation of computations necessary, like `13n + 42` or `12`.
+Nice! You’re all connected with GitHub. Now, it’s time to start using the “Learn IDE” – short for Integrated Development Environment – that we mentioned in the last lesson. Follow the instructions below to download the IDE.
 
-# Typeform Example
+If you’re thinking, “I have no idea what the Learn IDE is and how I’ll use it,” don’t worry! Below, you’ll find some info on what it does and how it will help you learn to code. In the next lesson, we’ll walk you through your first lab using test-driven-development and the IDE. 
 
-<iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://theflatironschool.typeform.com/to/I9TsNU"></iframe>
+<a href="https://learn.co/ide-3/download">
+  <img height="56px" width="auto" src="https://s3-us-west-2.amazonaws.com/curriculum-content/streamlined-onboarding/download-ide-button.png" />
+</a>
 
+If you have any trouble getting the Learn IDE installed, just use the Ask a Question button on this page and someone will jump in to help you ASAP.
 
-# Quizzr Example
+## How to Download the Learn IDE:
 
-<iframe id="quizWidget-443859" width="100%" height="700px" frameborder="0" border="none" src="https://www.qzzr.com/widget/quiz/fi9xdWl6emVzLzQ0Mzg1OQ"></iframe>
+1. Download the IDE from the button above, or use this [link](https://learn.co/ide-3/download).
+2. The software will download (we promise, it’s safe!) 
+3. If you are using a Mac, drag the IDE software to your Applications Folder. For more details, check out [this Help Center article](http://help.learn.co/the-learn-ide/moving-the-ide-from-downloads-to-applications-folder-for-osx). If you’re on Windows or Linux, you don’t need to move the IDE to a specific folder. 
+4. Open the IDE, and log in with your Learn account. You'll see a temporary directory - that's fine! Check out the image below to see what that looks like. We’ll walk you through how to get started with opening a lab in the IDE in the next lesson.
 
-# Survey Legend Example
+<img height="auto" width="500px" src="https://s3-us-west-2.amazonaws.com/curriculum-content/streamlined-onboarding/ide-temp-dir.png" />
 
-<iframe src= " https://www.surveylegend.com/s/dnx " width= "100%" height= "1000px" style= "frameborder: 0; border: 0; margin: 0 auto;" > </iframe>
+## A Quick Note on the Learn IDE
+The Learn IDE  basically gives you a pre-configured terminal with a complete development environment in about a minute. We built the Learn IDE so you can get started coding for real without the hassle of getting your entire computer setup. The Learn IDE is built on top of Atom, the text editor by our amazing friends over at GitHub.
 
+Before we move on, don't forget to download the IDE:
 
-# big-O-for-burritos
+<a href="https://learn.co/ide-3/download">
+  <img height="56px" width="auto" src="https://s3-us-west-2.amazonaws.com/curriculum-content/streamlined-onboarding/download-ide-button.png" />
+</a>
+</div>
 
-A set of exercises optimized for those coming from a background in burritos. Those familiar only with tortillas will want to review meat, cheese, and rice.
+<div class="readme-content-test--show-when-active">
 
-## Instructions
+Nice! You’re all connected with GitHub. Now, it’s time to start using the “Learn IDE” – short for Integrated Development Environment – that we mentioned in the last lesson. Follow the instructions below to download the IDE.
 
-Complete each exercise. "order" refers to the general Big O order, like
-O(1), O(n), or O(n log(n)). "complexity" refers to a more specific
-approximation of computations necessary, like `13n + 42` or `12`.
+If you’re thinking, “I have no idea what the Learn IDE is and how I’ll use it,” don’t worry! Below, you’ll find some info on what it does and how it will help you learn to code. In the next lesson, we’ll walk you through your first lab using test-driven-development and the IDE. 
 
+<a href="https://learn.co/ide-3/download">
+  <img height="56px" width="auto" src="https://s3-us-west-2.amazonaws.com/curriculum-content/streamlined-onboarding/download-ide-button.png" />
+</a>
 
-## Example
+If you have any trouble getting the Learn IDE installed, just use the Ask a Question button on this page and someone will jump in to help you ASAP.
 
-```C
+## How to Download the Learn IDE:
 
-void foo(n) {
-  int count = 0; // 1
+1. Download the IDE from the button above, or use this [link](https://learn.co/ide-3/download).
+2. The software will download (we promise, it’s safe!) 
+3. If you are using a Mac, drag the IDE software to your Applications Folder. For more details, check out [this Help Center article](http://help.learn.co/the-learn-ide/moving-the-ide-from-downloads-to-applications-folder-for-osx). If you’re on Windows or Linux, you don’t need to move the IDE to a specific folder. 
+4. Open the IDE, and log in with your Learn account. You'll see a temporary directory - that's fine! Check out the image below to see what that looks like. We’ll walk you through how to get started with opening a lab in the IDE in the next lesson.
 
-  for(int i = 0; i < n; i++) { // 2n + 1
-    count++; // 1 * n
-  }
-}
-```
+<img height="auto" width="500px" src="https://s3-us-west-2.amazonaws.com/curriculum-content/streamlined-onboarding/ide-temp-dir.png" />
 
-Complexity: `3n + 2` Order: `O(n)`
+## A Quick Note on the Learn IDE
+The Learn IDE  basically gives you a pre-configured terminal with a complete development environment in about a minute. We built the Learn IDE so you can get started coding for real without the hassle of getting your entire computer setup. The Learn IDE is built on top of Atom, the text editor by our amazing friends over at GitHub.
 
-We have 1 operation to initialize the `count` to 0. One could
-also consider the initialization of `count` to be it's own
-operation, but it doesn't really matter.
+Before we move on, don't forget to download the IDE:
 
-The `for` loop definition intializes `i` to 0 once.
+<a href="https://learn.co/ide-3/download">
+  <img height="56px" width="auto" src="https://s3-us-west-2.amazonaws.com/curriculum-content/streamlined-onboarding/download-ide-button.png" />
+</a>
 
-Then, `n` times, the loop checks if `i` is less than `n` and increments `i`, so
-2 * `n`.
-
-In the body of the loop, we increment count `n` times.
-
-So, there roughly exactly just about 3`n` + 2 operations. If `n` is 1, then
-there are 5 operations. If `n` is 100, there are 302 operations.
-
-## Exercise 1
-
-Calculate the complexity and order.
-
-Try writing the complexity next to each line like in the example as a
-tool to calculating the complexity.
-
-```C
-int rectangle_area(height, width) {
-  int area = 0;
-
-  for(int i = 0; i < height; i++) {
-    for(int j = 0; j < width; j++) {
-      area++;
-    }
-  }
-
-  return area;
-}
-```
-
-Complexity: _______________ Order: _______________
-
-## Exercise 2
-
-Calculate the order.
-
-*ONLY CALCULATE THE ORDER, YES THERE IS A TRICK*
-
-```C
-int cheese_shredder(float height_of_cheese_wheel) {
-  float dist_to_moon_km = 370300;
-  float stacked_cheese_height_km = 0;
-  int num_cheese_shredders = 5;
-  int num_technicians_per_shredder = 2;
-  int shred_time = 12;
-  int total_shred_time = 0;
-
-  while(stacked_cheese_height_km < dist_to_moon_km) {
-    stacked_cheese_height_km = stacked_cheese_height_km + height_of_cheese_wheel;
-  }
-
-  for(int i = 0; i < num_cheese_shredders; i++) {
-    // Proprietary cheese calculation heuristic
-    for(int j = 12; j < 123456; j = j + 6) {
-      for(int k = 21; k < 123456; k = k + 6) {
-        total_shred_time  = total_shred_time + stacked_cheese_height_km / (stacked_cheese_height_km - 2.0);
-      }
-    }
-  }
-
-  return total_shred_time;
-}
-```
-
-Order: _______________
-
-## Exercise 3
-
-Calculate the complexity and order.
-
-```C
-int halves(n) {
-  int count = 0;
-
-  if(n % 2 == 1) {
-    n = n - 1;
-  }
-
-  for(int i = n; i > 1; i = i / 2;) {
-    count++;
-  }
-
-  return count;
-}
-```
-
-Complexity: _______________ Order: _______________
-
-
-## Exercise 4
-
-Calculate the complexity and order.
-
-```C
-int bacteria_generation(days) {
-  int total_population = 1;
-  int current_population = total_population;
-
-  for(int i = 0; i < days; i++) {
-    current_population = total_population;
-
-    for(int j = 0; j < current_population; j++) {
-      total_population++;
-    }
-  }
-
-  return total_population;
-}
-```
-
-Complexity: _______________ Order: _______________
-
-## Exercise 5
-
-Which algorithm is more efficient? (burrito is not a valid answer)
-
-Algorithm A
-
-```C
-int max(array) {
-  int max = array[0];
-
-  for(int i = 1; i < array.length; i++) {
-    if(array[i] > max) {
-      max = array[i];
-    }
-  }
-
-  return max;
-}
-```
-
-Algorithm B
-
-```C
-int max(array) {
-  int temp;
-
-  // sort the array in ascending order
-  for(int i = 0; i < array.length; i++) {
-    for(int j = 0; j < array.length - 1; j++) {
-      if( array[j] > array[j+1]) {
-        temp = array[j+1];
-        array[j+1] = array[j];
-        array[j] = temp;
-      }
-    }
-  }
-
-  return array[array.length-1];
-}
-```
-
-Algorithm A
-
-Order: _______________
-
-Algorithm B
-
-Order: _______________
-
-Winner: _______________
-
-## Exercise 6
-
-Which algorithm, foo or bar, is faster when when `n` is 10? 100? 1000?
-
-Algorithm foo
-
-```C
-  int foo(n) {
-    int sum = 0
-
-    for(int i = 0; i < n + 500; i++) {
-      sum++;
-    }
-
-    return sum;
-  }
-```
-
-Algorithm bar
-
-```C
-  int bar(n) {
-    int sum = 0
-
-    for(int i = 0; i < n; i++) {
-      for(int j = 0; j < n; j++) {
-        sum++;
-      }
-    }
-
-    return sum;
-  }
-```
-
-### n=10
-
-foo complexity: __________ bar complexity: __________ winner: __________
-
-### n=50
-
-foo complexity: __________ bar complexity: __________ winner: __________
-
-### n=1000
-
-foo complexity: __________ bar complexity: __________ winner: __________
-
-### n=1000
-
-foo complexity: __________ bar complexity: __________ winner: __________
-
-<picture>
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/bootcamp_prep/rock_dodger.webp" type="image/webp">
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/bootcamp_prep/rock_dodger.gif" type="image/gif">
-  <img src="https://curriculum-content.s3.amazonaws.com/web-development/bootcamp_prep/rock_dodger.gif" alt="Rock Dodger demo!">
-</picture>
+</div>
