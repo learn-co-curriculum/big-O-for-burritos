@@ -44,7 +44,7 @@
   
   <br>
   
-  <img height="auto" width="500px" src="https://s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/splitscreenide.png" />
+  <img height="500px" width="auto" src="https://s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/splitscreenide.png" />
   
   <br>
 
