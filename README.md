@@ -52,8 +52,8 @@
   <br>
   <br>
 
-  With the click of a button, the Learn IDE gives you a pre-configured terminal with a complete development environment. We built the Learn IDE so you can get started coding for real without the hassle of getting your entire computer set up. It will open right in your browser, so no need to worry about downloading software or configuring anything. As soon as you open it, it will connect with your GitHub account that you just set up. 
+  With the click of a button, the Learn IDE gives you a pre-configured terminal with a complete development environment. We built the Learn IDE so you can get started coding for real without the hassle of getting your entire computer set up. It will open right in your browser, so no need to worry about downloading software or configuring anything. Make sure you are using a recent version of Chrome to have the best IDE In Browser experience.
   
-  Make sure you're set up with a recent version of Chrome to have the best IDE In Browser experience. Ready to get started? Click "I'm Done" and "Next Lesson" to start your First IDE Lab.
+   Ready to get started? Click "I'm Done" and "Next Lesson" to get started with the IDE.
 
 </div>
