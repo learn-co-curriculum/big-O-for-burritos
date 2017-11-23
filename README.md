@@ -1,3 +1,5 @@
+Testing.
+
 <div class="readme-content-test--hide-when-active">
 
   Nice! You’re all connected with GitHub. Now, it’s time to start using the “Learn IDE” – short for Integrated Development Environment – that we mentioned in the last lesson. Follow the instructions below to download the IDE.
